@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: sesamum
+Version: 0.1.0
+Summary: A lightweight bioformats-like library for Python
+Author-email: Antigravity <antigravity@example.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tifffile
+Requires-Dist: nd2
+Requires-Dist: twine>=6.2.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# Sesamum
+
+A lightweight bioformats-like library for Python.
+
+## Description
+
+Sesamum provides a simple, unified interface for reading various microscopy image formats (TIFF, LSM, ND2) into NumPy arrays, along with their metadata. It aims to be minimal and lightweight, avoiding heavy dependencies.
+
+## Installation
+
+```bash
+pip install sesamum
+```
+
+## Usage
+
+```python
+import sesamum
+
+# Read a file (format detected automatically)
+data, metadata = sesamum.read('path/to/image.tif')
+
+print(f"Shape: {data.shape}")
+print(f"Metadata: {metadata}")
+```
+
+## Supported Formats
+
+- **TIFF** (`.tif`, `.tiff`)
+- **LSM** (`.lsm`)
+- **Nikon ND2** (`.nd2`)
+
+## Dependencies
+
+- `numpy`
+- `tifffile`
+- `nd2`
