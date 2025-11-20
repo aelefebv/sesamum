@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sesamum"
-version = "0.1.1"
+version = "0.1.2"
 description = "A lightweight bioformats-like library for Python"
 authors = [{name = "Austin E. Y. T. Lefebvre", email = "austin.e.lefebvre+sesamum@gmail.com"}]
 readme = "README.md"
@@ -13,10 +13,10 @@ dependencies = [
     "numpy",
     "tifffile",
     "nd2",
-    "twine>=6.2.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest",
+    "twine",
 ]
