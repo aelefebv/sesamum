@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+.python-version
+
+# Distribution / build artifacts
+dist/
+build/
+*.whl
+*.egg-info/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# Editors
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints

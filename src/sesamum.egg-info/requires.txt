@@ -1,7 +1,0 @@
-numpy
-tifffile
-nd2
-twine>=6.2.0
-
-[dev]
-pytest
