@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sesamum"
+version = "0.1.0"
+description = "A lightweight bioformats-like library for Python"
+authors = [{name = "Antigravity", email = "antigravity@example.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "tifffile",
+    "nd2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
