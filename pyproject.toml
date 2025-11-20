@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sesamum"
-version = "0.1.2"
+version = "0.1.3"
 description = "A lightweight bioformats-like library for Python"
 authors = [{name = "Austin E. Y. T. Lefebvre", email = "austin.e.lefebvre+sesamum@gmail.com"}]
 readme = "README.md"
